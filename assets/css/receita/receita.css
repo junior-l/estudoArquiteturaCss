@@ -3,7 +3,28 @@
     display: flex;  /* para se comportar como flex-box */
     flex-direction: column; /* colua para ficar um embaixo do outro  */
     margin-bottom: 5rem; 
-    margin-right: 5rem;
-    width: calc(25% - 5rem); /* - 5rem éem relação a somda do espeçameto somado com o espaçameto da margem de 5ren*/ 
+    
 
+}
+/* celular */
+@media screen and (min-width:0){
+    .receita{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+/* tabletes */
+@media screen and (min-width:768px){
+    .receita{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem); 
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 992px){
+    .receita{
+        margin-right: 5rem;
+        width: calc(25% - 5rem); /* - 5rem éem relação a somda do espeçameto somado com o espaçameto da margem de 5ren*/ 
+    }
 }
