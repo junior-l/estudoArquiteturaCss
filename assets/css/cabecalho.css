@@ -1,0 +1,10 @@
+
+.cabecalho{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between; /*Os itens terão espaços entre eles*/
+    /* espaçamento esquerda e direita */
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

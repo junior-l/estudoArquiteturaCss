@@ -1,0 +1,14 @@
+.menu__link{  /* estiliza e tira as decorações do link */
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.menu__link.ativo{ /* não tendi ele fez um ID so pra isso */
+    color:  #333333 ;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    text-decoration: underline; /* quando o mouse passa por cima aparece o underline */
+}

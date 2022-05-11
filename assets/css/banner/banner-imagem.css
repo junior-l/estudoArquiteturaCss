@@ -1,0 +1,4 @@
+.banner__imagem{
+    height: calc(100vh - 72px) ; /* ignorar o tamannho do cabeçalho */
+    width: 100%;
+}

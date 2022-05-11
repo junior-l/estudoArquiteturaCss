@@ -1,0 +1,7 @@
+.menu__item{
+    list-style: none; /* tira as bolinhas do LI */
+}
+
+.menu__item:last-child .menu__link{ /* pega o ultimo filho  e tira a margem dele */
+    margin-right: 0;
+}
